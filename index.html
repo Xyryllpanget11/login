@@ -1,20 +1,9 @@
-<h2> Sign in to XyAi </h2>
-
-<div class="cont">
-  
-  <div class="form">
-    <form>
-      <h1>Login</h1>
-      <input type="text" class="user" placeholder="Username"/>
-      <input type="password" class="pass" placeholder="Password"/>
-      <button class="login" onclick="redirectToLink()">Login</button>
-    </form>
-  </div>
-  
-  <h2> </h2>
-  
-</div>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login Page</title>
 <style>
   @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
 
@@ -118,9 +107,27 @@
     margin-top: 25px;
   }
 </style>
+</head>
+<body>
+
+<h2>Sign in to XyAi</h2>
+
+<div class="cont">
+  <div class="form">
+    <form>
+      <h1>Login</h1>
+      <input type="text" class="user" placeholder="Username"/>
+      <input type="password" class="pass" placeholder="Password"/>
+      <button type="button" class="login" onclick="redirectToLink()">Login</button>
+    </form>
+  </div>
+</div>
 
 <script>
   function redirectToLink() {
     window.location.href = "https://xyaii.vercel.app/";
   }
 </script>
+
+</body>
+</html>
